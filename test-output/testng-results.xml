@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-02T10:37:00 IST" name="Default suite" finished-at="2021-11-02T10:37:03 IST" duration-ms="2401">
+    <groups>
+    </groups>
+    <test started-at="2021-11-02T10:37:00 IST" name="Default test" finished-at="2021-11-02T10:37:03 IST" duration-ms="2401">
+      <class name="Positive.appsumo_positive">
+        <test-method is-config="true" signature="report()[pri:0, instance:Positive.appsumo_positive@6b8ca3c8]" started-at="2021-11-02T10:36:52 IST" name="report" finished-at="2021-11-02T10:37:00 IST" duration-ms="7710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="open_Browser()[pri:0, instance:Positive.appsumo_positive@6b8ca3c8]" started-at="2021-11-02T10:37:00 IST" name="open_Browser" finished-at="2021-11-02T10:37:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_Browser -->
+        <test-method signature="Test()[pri:0, instance:Positive.appsumo_positive@6b8ca3c8]" started-at="2021-11-02T10:37:00 IST" name="Test" finished-at="2021-11-02T10:37:03 IST" duration-ms="2351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Positive.appsumo_positive@6b8ca3c8]" started-at="2021-11-02T10:37:03 IST" name="Close_Browser" finished-at="2021-11-02T10:37:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+        <test-method is-config="true" signature="Flush_Report()[pri:0, instance:Positive.appsumo_positive@6b8ca3c8]" started-at="2021-11-02T10:37:03 IST" name="Flush_Report" finished-at="2021-11-02T10:37:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flush_Report -->
+      </class> <!-- Positive.appsumo_positive -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
