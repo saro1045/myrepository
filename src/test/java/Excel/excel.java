@@ -5,7 +5,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import Browser.Browser;
 
-public class excel extends Browser{
+public class excel extends Browser {
 	public XSSFWorkbook workbook;
 	public XSSFSheet sheet;
 	

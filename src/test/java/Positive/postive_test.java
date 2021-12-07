@@ -1,22 +1,37 @@
 package Positive;
 
+import java.lang.reflect.Method;
+
 import org.testng.annotations.Test;
 
 import Appsumo_signup_and_signin.app_sumo;
 import Browser.Browser;
-import Excel.excel;
 import Main.Add_contact;
 import Main.Select_contact;
 import Main.contact_search;
 import Main.login;
+import Report.HtmlReport;
 
 public class postive_test extends Browser {
-	@Test(priority=0)
-	public void Test() throws Exception
+
+	public void initiatereport(Method testMethod)
 	{
+		HtmlReport re = new HtmlReport();
+		re.createreport(testMethod);
+	}
+
+	
+
+
+	@Test(priority=0)
+	public void Redtiesignin(Method testMethod) throws Exception 
+	{
+		initiatereport(testMethod);
+
+		
 		login log=new login(driver);
 		log.loginexcel();
-
+		
 	}
 
 	@Test(priority=1)
@@ -38,8 +53,8 @@ public class postive_test extends Browser {
 		Select_contact sc=new Select_contact(driver);
 		sc.select_contact();	
 	}
-	
-	
+
+
 	@Test(priority=3)
 	public void Test4() throws Exception
 	{
@@ -49,16 +64,16 @@ public class postive_test extends Browser {
 		contact_search sc=new contact_search(driver);
 		sc.search_contact_Method();	
 	}
-	
+
 	@Test(priority=4)
 	public void Test5() throws Exception
 	{
-		
+
 		app_sumo as=new app_sumo(driver);
 		as.Appsumo_Method();
 	}
-	
-	
-	
-	
+
+
+
+
 }
